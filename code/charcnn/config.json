@@ -1,0 +1,45 @@
+{
+  "data": {
+    "alphabet": "abcdefghijklmnopqrstuvwxyzăîâșțABCDEFGHIJKLMNOPQRSTUVWXYĂÎÂȘȚ0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{}",
+    "alphabet_size": 105,
+    "input_size": 1000
+  },
+  "model": "char_cnn",
+  "training": {
+    "epochs": 50,
+    "batch_size": 128,
+    "evaluate_every": 100,
+    "checkpoint_every": 100
+  },
+  "char_cnn_zhang": {
+    "embedding_size": 128,
+    "conv_layers": [ 
+      [
+        64,
+        5,
+        3,
+	    3,
+        64
+      ],
+      [
+        64,
+        3,
+	    3,
+        3,
+        64
+      ],
+      [
+        64,
+        1,
+        3,
+	    3,
+        64
+      ]
+    ],
+    "threshold": 1e-6,
+    "dropout_p": 0.5,
+    "optimizer": "nadam",
+    "loss": "categorical_crossentropy"
+  }
+}
+
