@@ -16,7 +16,7 @@ You are free to **share** (copy and redistribute the material in any medium or f
 
 Please cite the corresponding work (see citation.bib file to obtain the citation in [BibTex](citation.bib) format) if you use this data set and software (or a modified version of it) in any scientific work:
 
-**[1] Ana-Cristina Rogoz, Mihaela Gaman, Radu Tudor Ionescu. SaRoCo: Detecting Satire in a Novel Romanian Corpus of News Articles. In Proceedings of ACL, pp. TBD, 2021. [(link to paper)](https://TBD).**
+**[1] Ana-Cristina Rogoz, Mihaela Gaman, Radu Tudor Ionescu. SaRoCo: Detecting Satire in a Novel Romanian Corpus of News Articles. In Proceedings of ACL, pp. TBD, 2021. [(link to paper)](https://arxiv.org/abs/2105.06456).**
 
 ## Dataset
 
