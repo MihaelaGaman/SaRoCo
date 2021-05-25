@@ -5,7 +5,7 @@ import csv
 from sklearn.utils import shuffle
 
 # Custom
-from splits import Data
+from data import Data
 from model import CharCNN
 
 if __name__ == "__main__":
